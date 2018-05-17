@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="hyptosis_tile-art-batch-5" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="2965" name="hyptosis_tile-art-batch-4" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-4.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="6565" name="hyptosis_tile-art-batch-3" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="10165" name="hyptosis_tile-art-batch-1" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="13765" name="BG" tilewidth="16" tileheight="16">
+  <image source="../FreeTileset/png/BG/BG.png" width="1000" height="750"/>
+ </tileset>
+ <tileset firstgid="16617" name="Platforms" tilewidth="16" tileheight="16">
+  <image source="../PlatformTiles_brownNature_ByEris_0/Platforms.png" width="1280" height="1472"/>
+ </tileset>
+ <tileset firstgid="23977" name="BackgroundGradient" tilewidth="16" tileheight="16">
+  <image source="../PlatformTiles_brownNature_ByEris_0/BackgroundGradient.png" width="1280" height="1472"/>
+ </tileset>
+ <tileset firstgid="31337" name="grunge_tile" tilewidth="16" tileheight="16">
+  <image source="../grunge tile/grunge_tile.png" width="448" height="320"/>
+ </tileset>
+ <tileset firstgid="31897" name="desert_BG" tilewidth="16" tileheight="16">
+  <image source="runners/desert_BG.png" width="800" height="400"/>
+ </tileset>
+ <layer name="platforms" width="128" height="40">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="128" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1UtOAkEYReE/ERWFBKbgNtQNVCcKU0DwsRF1qDsQ2Qg+QNkAMoBFAOvgJj3t7gQkqYKcLznpGlZyky4zAAAAAAAA7IO3klm35PsW8GWq7Wc7un+/ZvahPtWX+lYDNVQ/6leNar5vGbZC2axY9n2LzRzUzXLqUB2pY5VXJ+pUFVSx7vuWYbvS9tcZ+z86syf17NLPvjS0bVO11I1qq466VXfqXj2wf6YXbf+asf9Y+/6piUs/I1z/fSMrkVlVnUXpZ4QrxDey6+LeE749/idbFeIbOXdxi4Tvkv333nkUd5HwveQ9AQAAAAAAAAAAAAAAAAAAAIC1rAAVP1M9
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="128" height="40">
+  <object name="PlayerStartPoint" x="65" y="125" width="17" height="16"/>
+  <object name="AnimObject" type="honeyJarsmall" x="476" y="219" width="13" height="11">
+   <properties>
+    <property name="cargo" value="1"/>
+    <property name="platform" value="2"/>
+   </properties>
+  </object>
+  <object name="Solid" x="29" y="202" width="144" height="38"/>
+  <object name="Landing" x="30" y="193" width="142" height="13">
+   <properties>
+    <property name="platform" value="1"/>
+   </properties>
+  </object>
+  <object name="Landing" x="655" y="162" width="160" height="12">
+   <properties>
+    <property name="platform" value="3"/>
+   </properties>
+  </object>
+  <object name="Landing" x="368" y="238" width="126" height="13">
+   <properties>
+    <property name="platform" value="2"/>
+   </properties>
+  </object>
+  <object name="Solid" x="368" y="254" width="128" height="33"/>
+  <object name="Solid" x="1825" y="218" width="155" height="39"/>
+  <object name="Solid" x="4" y="559" width="2040" height="75"/>
+  <object name="Solid" x="654" y="166" width="162" height="43"/>
+  <object name="AnimObject" type="honeyJarsmall" x="792" y="143" width="13" height="11">
+   <properties>
+    <property name="cargo" value="2"/>
+    <property name="platform" value="3"/>
+   </properties>
+  </object>
+  <object name="Landing" x="1824" y="207" width="121" height="13">
+   <properties>
+    <property name="deposit" value="2"/>
+    <property name="platform" value="4"/>
+   </properties>
+  </object>
+  <object name="AnimObject" type="SoldierBeeWingFlap" x="654" y="95" width="15" height="13">
+   <properties>
+    <property name="1_xflip" value="-1"/>
+    <property name="2_xmoveto" value="-500"/>
+    <property name="3_xflip" value="1"/>
+    <property name="4_ymoveto" value="-100"/>
+    <property name="5_movetothis" value="1"/>
+    <property name="frames" value="3"/>
+   </properties>
+  </object>
+  <object name="AnimObject" type="SoldierBeeWingFlap" x="1084" y="167" width="15" height="13">
+   <properties>
+    <property name="1_xflip" value="-1"/>
+    <property name="2_xmoveto" value="-500"/>
+    <property name="3_xflip" value="1"/>
+    <property name="4_ymoveto" value="-100"/>
+    <property name="5_movetothis" value="1"/>
+    <property name="frames" value="3"/>
+   </properties>
+  </object>
+  <object name="AnimObject" type="SoldierBeeWingFlap" x="1596" y="133" width="15" height="13">
+   <properties>
+    <property name="1_xflip" value="-1"/>
+    <property name="2_xmoveto" value="-500"/>
+    <property name="3_xflip" value="1"/>
+    <property name="4_ymoveto" value="-100"/>
+    <property name="5_movetothis" value="1"/>
+    <property name="frames" value="3"/>
+   </properties>
+  </object>
+  <object name="AnimObject" type="SoldierBeeWingFlap" x="2022" y="13" width="12" height="12">
+   <properties>
+    <property name="1_xflip" value="-1"/>
+    <property name="2_xmoveto" value="-500"/>
+    <property name="3_xflip" value="1"/>
+    <property name="4_ymoveto" value="-100"/>
+    <property name="5_movetothis" value="1"/>
+    <property name="frames" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

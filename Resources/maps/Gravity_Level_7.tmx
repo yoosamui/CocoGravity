@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="54" height="40" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="hyptosis_tile-art-batch-5" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="2965" name="hyptosis_tile-art-batch-4" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-4.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="6565" name="hyptosis_tile-art-batch-3" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="10165" name="hyptosis_tile-art-batch-1" tilewidth="16" tileheight="16">
+  <image source="hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="13765" name="BG" tilewidth="16" tileheight="16">
+  <image source="../FreeTileset/png/BG/BG.png" width="1000" height="750"/>
+ </tileset>
+ <tileset firstgid="16617" name="Platforms" tilewidth="16" tileheight="16">
+  <image source="../PlatformTiles_brownNature_ByEris_0/Platforms.png" width="1280" height="1472"/>
+ </tileset>
+ <tileset firstgid="23977" name="BackgroundGradient" tilewidth="16" tileheight="16">
+  <image source="../PlatformTiles_brownNature_ByEris_0/BackgroundGradient.png" width="1280" height="1472"/>
+ </tileset>
+ <tileset firstgid="31337" name="grunge_tile" tilewidth="16" tileheight="16">
+  <image source="../grunge tile/grunge_tile.png" width="448" height="320"/>
+ </tileset>
+ <tileset firstgid="31897" name="desert_BG" tilewidth="16" tileheight="16">
+  <image source="runners/desert_BG.png" width="800" height="400"/>
+ </tileset>
+ <layer name="platforms" width="54" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt1MtNAlEUh/GT+FwxzPCQDrQHTBSwE+hAEkgEtBPtQHaisoNEfGxVRDvQHuQrAEOcCcxc+H/JL3d555DLMVNKKaWUUkoppZRS69yrZ/aGd4zxgQk+8eXF/XXh89NmATLIIoc89lBIx/114TtNmdVT8dw9761EeUvXzNQNOdese//zLfPeSpS39M1MPyHnmnVvUt71Pr/hgcP74a+qzFRbwbkumelqBeeKcx8usij7MMlF2YdJTvvQrZa9Dwe+2dB393zACI94wjNe8AsL3D03sIktbGMHuyji0OHzCMcooYwKTtBA0+HzDC200cE5LoLl/Y8X1Q0z9HCLO9yjjynRpbAJ
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="54" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztzrkJwEAMBEC166cC5X7KtrITlzhx4GAGFrGwgSIAAAAAAN4tGbFWtsqeo/fbN/P+r4767axclTtH77dv5j0AAMAXHiwqHkM=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="54" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzkENhAAMAMHagD84AgfgBxxwvkALVdDkng0zyf43AgAAAIAv26aIvairK99/RV3d+f4UdTXMEWNRV0u+r0VdHfl+FgEAAP97ARD2HkM=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="54" height="40">
+  <object name="PlayerStartPoint" x="165" y="330" width="17" height="16"/>
+  <object name="AnimObject" type="honeyJarsmall" x="514" y="310" width="13" height="11">
+   <properties>
+    <property name="cargo" value="2"/>
+    <property name="platform" value="2"/>
+   </properties>
+  </object>
+  <object name="Solid" x="47" y="389" width="257" height="30"/>
+  <object name="Landing" x="47" y="386" width="255" height="20">
+   <properties>
+    <property name="platform" value="1"/>
+   </properties>
+  </object>
+  <object name="Landing" x="656" y="385" width="205" height="14">
+   <properties>
+    <property name="deposit" value="2"/>
+    <property name="platform" value="3"/>
+   </properties>
+  </object>
+  <object name="Landing" x="411" y="338" width="132" height="13">
+   <properties>
+    <property name="platform" value="2"/>
+   </properties>
+  </object>
+  <object name="Solid" x="415" y="340" width="129" height="30"/>
+  <object name="Solid" x="415" y="371" width="38" height="190"/>
+  <object name="Solid" x="4" y="559" width="861" height="76"/>
+  <object name="Solid" x="657" y="391" width="205" height="27"/>
+  <object name="AnimObject" type="honeyJarsmall" x="490" y="310" width="13" height="11">
+   <properties>
+    <property name="cargo" value="1"/>
+    <property name="platform" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

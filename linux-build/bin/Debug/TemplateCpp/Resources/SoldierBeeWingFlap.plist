@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            
+            
+            <key>SoldierBeeWingFlap1</key>
+            <dict>
+                <key>frame</key>
+                <string>{{50,2},{24,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,24}}</string>
+                <key>sourceSize</key>
+                <string>{24,24}</string>
+            </dict>
+            
+            
+             <key>SoldierBeeWingFlap2</key>
+            <dict>
+                <key>frame</key>
+                <string>{{26,2},{24,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,24}}</string>
+                <key>sourceSize</key>
+                <string>{24,24}</string>
+            </dict>
+            
+            
+             <key>SoldierBeeWingFlap3</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{24,24}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{24,24}}</string>
+                <key>sourceSize</key>
+                <string>{24,24}</string>
+            </dict>
+            
+            
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>shipAnimation.png</string>
+            <key>size</key>
+            <string>{924,73}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:95d34e64115ff3be97b01fef4557760a:b89d7b2b03117213e84e0e6fc32de499:47754cf3ffd31bdb4c81f529279f8fc4$</string>
+            <key>textureFileName</key>
+            <string>SoldierBeeWingFlap.png</string>
+        </dict>
+    </dict>
+</plist>
